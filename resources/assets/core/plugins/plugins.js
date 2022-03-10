@@ -107,6 +107,9 @@ module.exports = [
     // Axios - Promise based HTTP client for the browser and node.js
     'node_modules/axios/dist/axios.js',
 
+    //drag and drop
+    'node_modules/dragula/dist/dragula.min.js',
+
 ];
 
 // window.axios.defaults.headers.common = {
