@@ -14,7 +14,7 @@
 
             <!--begin::Content-->
             <div class="docs-content d-flex flex-column flex-column-fluid" id="kt_docs_content">
-                @include('layout/docs/_content')
+                {{-- @include('layout/docs/_content') --}}
             </div>
             <!--end::Content-->
 

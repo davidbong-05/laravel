@@ -89,7 +89,7 @@ return array(
 
         // Changelog
         array(
-            'title'            => 'Changelog <span class="badge badge-changelog badge-light-danger bg-hover-danger text-hover-white fw-bold fs-9 px-2 ms-2">v'.theme()->getVersion().'</span>',
+            'title'            => 'Changelog <span class="badge badge-changelog badge-light-danger bg-hover-danger text-hover-white fw-bold fs-9 px-2 ms-2">v' . theme()->getVersion() . '</span>',
             'breadcrumb-title' => 'Changelog',
             'path'             => 'documentation/getting-started/changelog',
         ),
@@ -290,6 +290,13 @@ return array(
             ),
         ),
 
+        // Changelog
+        array(
+            'title' => 'Dragula',
+            'icon'  => theme()->getSvgIcon("demo1/media/icons/duotune/general/gen010.svg", "svg-icon-2"),
+            'path'  => '/drag-drop',
+        ),
+
         // Separator
         array(
             'content' => '<div class="separator mx-1 my-4"></div>',
@@ -297,7 +304,7 @@ return array(
 
         // Changelog
         array(
-            'title' => 'Changelog v'.theme()->getVersion(),
+            'title' => 'Changelog v' . theme()->getVersion(),
             'icon'  => theme()->getSvgIcon("demo1/media/icons/duotune/general/gen005.svg", "svg-icon-2"),
             'path'  => 'documentation/getting-started/changelog',
         ),
@@ -332,7 +339,7 @@ return array(
 
                     // Changelog
                     array(
-                        'title' => 'Changelog v'.theme()->getVersion(),
+                        'title' => 'Changelog v' . theme()->getVersion(),
                         'icon'  => theme()->getSvgIcon("demo1/media/icons/duotune/general/gen005.svg", "svg-icon-2"),
                         'path'  => 'documentation/getting-started/changelog',
                     ),
