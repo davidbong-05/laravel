@@ -56,6 +56,8 @@ Route::middleware('auth')->group(function () {
         Route::resource('system', SystemLogsController::class)->only(['index', 'destroy']);
         Route::resource('audit', AuditLogsController::class)->only(['index', 'destroy']);
     });
+
+    Route::get('/drag-drop', [App\Http\Controllers\DraggableController::class, 'index'])->name('draggabke.index');
 });
 
 Route::resource('users', UsersController::class);
@@ -66,4 +68,4 @@ Route::resource('users', UsersController::class);
  */
 Route::get('/auth/redirect/{provider}', [SocialiteLoginController::class, 'redirect']);
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
