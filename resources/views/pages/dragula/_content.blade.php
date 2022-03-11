@@ -6,8 +6,8 @@
             <!-- id the area for the dragging as card-drag-area -->
             <div class="row" id="card-drag-area">
                 <!-- class the item to be drag as draggable (only to change the cursor from arrow to grab)-->
-                <div class="col-xl-3 col-md-6 col-sm-12">
-                    <div class="card">
+                <div class="col-xl-3 col-md-6 col-sm-12 draggable">
+                    <div class="card mb-4">
                         <div class="card-header">
                             <h4 class="card-title">Draggable Card 1</h4>
                         </div>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 col-sm-12 draggable">
-                    <div class="card">
+                    <div class="card mb-4">
                         <div class="card-header">
                             <h4 class="card-title">Draggable Card 2</h4>
                         </div>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 col-sm-12 draggable">
-                    <div class="card">
+                    <div class="card mb-4">
                         <div class="card-header">
                             <h4 class="card-title">Draggable Card 3</h4>
                         </div>
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 col-sm-12 draggable">
-                    <div class="card">
+                    <div class="card mb-4">
                         <div class="card-header">
                             <h4 class="card-title">Draggable Card 4</h4>
                         </div>
@@ -72,7 +72,7 @@
 
         <!-- Sortable lists section start -->
         <section id="sortable-lists">
-            <div class="row">
+            <div class="row mb-4">
                 <!-- Basic List Group starts -->
                 <div class="col-sm-12">
                     <div class="card">
@@ -89,8 +89,8 @@
                                 <!-- class the item to be drag as draggable -->
                                 <li class="list-group-item draggable">
                                     <div class="d-flex">
-                                        <img src="_asset/images/portrait/small/avatar-s-12.jpg"
-                                            class="rounded-circle me-2" alt="img-placeholder" height="50" width="50" />
+                                        <img src="https://i.pravatar.cc/100?u=1" class="rounded-circle me-2"
+                                            alt="img-placeholder" height="50" width="50" />
                                         <div class="more-info">
                                             <h5>Mary S. Navarre</h5>
                                             <span>Chupa chups tiramisu apple pie biscuit sweet roll
@@ -100,8 +100,8 @@
                                 </li>
                                 <li class="list-group-item draggable">
                                     <div class="d-flex">
-                                        <img src="_asset/images/portrait/small/avatar-s-1.jpg"
-                                            class="rounded-circle me-2" alt="img-placeholder" height="50" width="50" />
+                                        <img src="https://i.pravatar.cc/100?u=2" class="rounded-circle me-2"
+                                            alt="img-placeholder" height="50" width="50" />
                                         <div class="more-info">
                                             <h5>Samuel M. Ellis</h5>
                                             <span>Toffee powder marzipan tiramisu. Cake cake dessert
@@ -111,8 +111,8 @@
                                 </li>
                                 <li class="list-group-item draggable">
                                     <div class="d-flex">
-                                        <img src="_asset/images/portrait/small/avatar-s-2.jpg"
-                                            class="rounded-circle me-2" alt="img-placeholder" height="50" width="50" />
+                                        <img src="https://i.pravatar.cc/100?u=3" class="rounded-circle me-2"
+                                            alt="img-placeholder" height="50" width="50" />
                                         <div class="more-info">
                                             <h5>Sandra C. Toney</h5>
                                             <span>Sugar plum fruitcake gummies marzipan liquorice
@@ -122,8 +122,8 @@
                                 </li>
                                 <li class="list-group-item draggable">
                                     <div class="d-flex">
-                                        <img src="_asset/images/portrait/small/avatar-s-3.jpg"
-                                            class="rounded-circle me-2" alt="img-placeholder" height="50" width="50" />
+                                        <img src="https://i.pravatar.cc/100?u=4" class="rounded-circle me-2"
+                                            alt="img-placeholder" height="50" width="50" />
                                         <div class="more-info">
                                             <h5>Cleveland C. Goins</h5>
                                             <span>Toffee powder marzipan tiramisu. Cake cake dessert
@@ -133,8 +133,8 @@
                                 </li>
                                 <li class="list-group-item draggable">
                                     <div class="d-flex">
-                                        <img src="_asset/images/portrait/small/avatar-s-4.jpg"
-                                            class="rounded-circle me-2" alt="img-placeholder" height="50" width="50" />
+                                        <img src="https://i.pravatar.cc/100?u=5" class="rounded-circle me-2"
+                                            alt="img-placeholder" height="50" width="50" />
                                         <div class="more-info">
                                             <h5>Linda M. English</h5>
                                             <span>Chupa chups tiramisu apple pie biscuit sweet roll
@@ -149,7 +149,7 @@
                 <!-- Basic List Group ends -->
 
                 <!-- Multiple List Group starts -->
-                <div class="col-sm-12">
+                <div class="col-sm-12 mb-4">
                     <div class="card">
                         <div class="card-header">
                             <h4 class="card-title">Multiple Lists</h4>
@@ -167,9 +167,8 @@
                                         <!-- class the item to be drag as draggable -->
                                         <li class="list-group-item draggable">
                                             <div class="d-flex">
-                                                <img src="_asset/images/portrait/small/avatar-s-12.jpg"
-                                                    class="rounded-circle me-2" alt="img-placeholder" height="50"
-                                                    width="50" />
+                                                <img src="https://i.pravatar.cc/100?u=11" class="rounded-circle me-2"
+                                                    alt="img-placeholder" height="50" width="50" />
                                                 <div class="more-info">
                                                     <h5>Mary S. Navarre</h5>
                                                     <span>Chupa chups tiramisu apple pie biscuit sweet
@@ -179,9 +178,8 @@
                                         </li>
                                         <li class="list-group-item draggable">
                                             <div class="d-flex">
-                                                <img src="_asset/images/portrait/small/avatar-s-1.jpg"
-                                                    class="rounded-circle me-2" alt="img-placeholder" height="50"
-                                                    width="50" />
+                                                <img src="https://i.pravatar.cc/100?u=12" class="rounded-circle me-2"
+                                                    alt="img-placeholder" height="50" width="50" />
                                                 <div class="more-info">
                                                     <h5>Samuel M. Ellis</h5>
                                                     <span>Toffee powder marzipan tiramisu. Cake cake
@@ -191,9 +189,8 @@
                                         </li>
                                         <li class="list-group-item draggable">
                                             <div class="d-flex">
-                                                <img src="_asset/images/portrait/small/avatar-s-2.jpg"
-                                                    class="rounded-circle me-2" alt="img-placeholder" height="50"
-                                                    width="50" />
+                                                <img src="https://i.pravatar.cc/100?u=13" class="rounded-circle me-2"
+                                                    alt="img-placeholder" height="50" width="50" />
                                                 <div class="more-info">
                                                     <h5>Sandra C. Toney</h5>
                                                     <span>Sugar plum fruitcake gummies marzipan liquorice
@@ -203,9 +200,8 @@
                                         </li>
                                         <li class="list-group-item draggable">
                                             <div class="d-flex">
-                                                <img src="_asset/images/portrait/small/avatar-s-3.jpg"
-                                                    class="rounded-circle me-2" alt="img-placeholder" height="50"
-                                                    width="50" />
+                                                <img src="https://i.pravatar.cc/100?u=14" class="rounded-circle me-2"
+                                                    alt="img-placeholder" height="50" width="50" />
                                                 <div class="more-info">
                                                     <h5>Cleveland C. Goins</h5>
                                                     <span>Toffee powder marzipan tiramisu. Cake cake
@@ -215,9 +211,8 @@
                                         </li>
                                         <li class="list-group-item draggable">
                                             <div class="d-flex">
-                                                <img src="_asset/images/portrait/small/avatar-s-4.jpg"
-                                                    class="rounded-circle me-2" alt="img-placeholder" height="50"
-                                                    width="50" />
+                                                <img src="https://i.pravatar.cc/100?u=15" class="rounded-circle me-2"
+                                                    alt="img-placeholder" height="50" width="50" />
                                                 <div class="more-info">
                                                     <h5>Linda M. English</h5>
                                                     <span>Chupa chups tiramisu apple pie biscuit sweet
@@ -234,9 +229,8 @@
                                         <!-- class the item to be drag as draggable -->
                                         <li class="list-group-item draggable">
                                             <div class="d-flex">
-                                                <img src="_asset/images/portrait/small/avatar-s-12.jpg"
-                                                    class="rounded-circle me-2" alt="img-placeholder" height="50"
-                                                    width="50" />
+                                                <img src="https://i.pravatar.cc/100?u=16" class="rounded-circle me-2"
+                                                    alt="img-placeholder" height="50" width="50" />
                                                 <div class="more-info">
                                                     <h5>Mary S. Navarre</h5>
                                                     <span>Chupa chups tiramisu apple pie biscuit sweet
@@ -246,9 +240,8 @@
                                         </li>
                                         <li class="list-group-item draggable">
                                             <div class="d-flex">
-                                                <img src="_asset/images/portrait/small/avatar-s-1.jpg"
-                                                    class="rounded-circle me-2" alt="img-placeholder" height="50"
-                                                    width="50" />
+                                                <img src="https://i.pravatar.cc/100?u=17" class="rounded-circle me-2"
+                                                    alt="img-placeholder" height="50" width="50" />
                                                 <div class="more-info">
                                                     <h5>Samuel M. Ellis</h5>
                                                     <span>Toffee powder marzipan tiramisu. Cake cake
@@ -258,9 +251,8 @@
                                         </li>
                                         <li class="list-group-item draggable">
                                             <div class="d-flex">
-                                                <img src="_asset/images/portrait/small/avatar-s-2.jpg"
-                                                    class="rounded-circle me-2" alt="img-placeholder" height="50"
-                                                    width="50" />
+                                                <img src="https://i.pravatar.cc/100?u=18" class="rounded-circle me-2"
+                                                    alt="img-placeholder" height="50" width="50" />
                                                 <div class="more-info">
                                                     <h5>Sandra C. Toney</h5>
                                                     <span>Sugar plum fruitcake gummies marzipan liquorice
@@ -270,9 +262,8 @@
                                         </li>
                                         <li class="list-group-item draggable">
                                             <div class="d-flex">
-                                                <img src="_asset/images/portrait/small/avatar-s-3.jpg"
-                                                    class="rounded-circle me-2" alt="img-placeholder" height="50"
-                                                    width="50" />
+                                                <img src="https://i.pravatar.cc/100?u=19" class="rounded-circle me-2"
+                                                    alt="img-placeholder" height="50" width="50" />
                                                 <div class="more-info">
                                                     <h5>Cleveland C. Goins</h5>
                                                     <span>Toffee powder marzipan tiramisu. Cake cake
@@ -282,9 +273,8 @@
                                         </li>
                                         <li class="list-group-item draggable">
                                             <div class="d-flex">
-                                                <img src="_asset/images/portrait/small/avatar-s-4.jpg"
-                                                    class="rounded-circle me-2" alt="img-placeholder" height="50"
-                                                    width="50" />
+                                                <img src="https://i.pravatar.cc/100?u=20" class="rounded-circle me-2"
+                                                    alt="img-placeholder" height="50" width="50" />
                                                 <div class="more-info">
                                                     <h5>Linda M. English</h5>
                                                     <span>Chupa chups tiramisu apple pie biscuit sweet
@@ -305,7 +295,7 @@
 
         <!-- Clone List Starts -->
         <section id="clone-lists">
-            <div class="row">
+            <div class="row mb-4">
                 <div class="col-sm-12">
                     <div class="card">
                         <div class="card-header">
