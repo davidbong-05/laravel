@@ -2,34 +2,34 @@
 
 @section('content')
 
-    <!--begin::Main-->
-    <div class="d-flex flex-column flex-root">
-        <!--begin::Page-->
-        <div class="docs-page d-flex flex-row flex-column-fluid">
+<!--begin::Main-->
+<div class="d-flex flex-column flex-root">
+    <!--begin::Page-->
+    <div class="docs-page d-flex flex-row flex-column-fluid">
         @include('layout/docs/_aside')
 
         <!--begin::Wrapper-->
-            <div class="docs-wrapper d-flex flex-column flex-row-fluid" id="kt_docs_wrapper">
+        <div class="docs-wrapper d-flex flex-column flex-row-fluid" id="kt_docs_wrapper">
             @include('layout/docs/_header')
 
             <!--begin::Content-->
-                <div class="docs-content d-flex flex-column flex-column-fluid" id="kt_docs_content">
-                    @include('layout/docs/_content')
-                </div>
-                <!--end::Content-->
-
-                @include('layout/docs/_footer')
+            <div class="docs-content d-flex flex-column flex-column-fluid" id="kt_docs_content">
+                @include('layout/docs/_content')
             </div>
-            <!--end::Wrapper-->
+            <!--end::Content-->
+
+            @include('layout/docs/_footer')
         </div>
-        <!--end::Page-->
+        <!--end::Wrapper-->
     </div>
-    <!--end::Main-->
+    <!--end::Page-->
+</div>
+<!--end::Main-->
 
-    <!--begin::Engage-->
-    {{ theme()->getView('partials/engage/_main') }}
-    <!--end::Engage-->
+<!--begin::Engage-->
+{{ theme()->getView('partials/engage/_main') }}
+<!--end::Engage-->
 
-    @include('layout/docs/_scrolltop')
+@include('layout/docs/_scrolltop')
 
 @endsection

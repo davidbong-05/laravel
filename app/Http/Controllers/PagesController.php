@@ -17,8 +17,8 @@ class PagesController extends Controller
         $view = theme()->getOption('page', 'view');
 
         // Check if the page view file exist
-        if (view()->exists('pages.'.$view)) {
-            return view('pages.'.$view);
+        if (view()->exists('pages.' . $view)) {
+            return view('pages.' . $view);
         }
 
         // Get the default inner page
