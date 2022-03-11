@@ -108,7 +108,7 @@ module.exports = [
     'node_modules/axios/dist/axios.js',
 
     //drag and drop
-    'node_modules/dragula/dist/dragula.min.js',
+    'node_modules/dragula/dist/dragula.js',
 
 ];
 
